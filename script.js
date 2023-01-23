@@ -14,7 +14,7 @@ function seleccionar(link) {
     x.className = "";
 }
 
-//función que muestra el menu       responsive
+//función que muestra el menu responsive
 function responsiveMenu() {
     var x = document.getElementById("nav");
     if (x.className === "") {
@@ -42,8 +42,6 @@ function efectoHabilidades() {
 
 
 //pagina pruebas 
-
-
 function confirmacion() {
 	var pregunta = confirm("¿Deseas visitar la página principal?")
 	if (pregunta){
@@ -54,41 +52,18 @@ function confirmacion() {
 		alert("Quizás en otro momento...\n Gracias de todas formas")
 	}
 }
-
-//carrousel
-
-var timer = 4000;
-
-var i = 0;
-var max = $('#c > li').length;
  
-	$("#c > li").eq(i).addClass('active').css('left','0');
-	$("#c > li").eq(i + 1).addClass('active').css('left','25%');
-	$("#c > li").eq(i + 2).addClass('active').css('left','50%');
-	$("#c > li").eq(i + 3).addClass('active').css('left','75%');
- 
+//genero el movimiento del corousel
 
-	setInterval(function(){ 
-
-		$("#c > li").removeClass('active');
-
-		$("#c > li").eq(i).css('transition-delay','0.25s');
-		$("#c > li").eq(i + 1).css('transition-delay','0.5s');
-		$("#c > li").eq(i + 2).css('transition-delay','0.75s');
-		$("#c > li").eq(i + 3).css('transition-delay','1s');
-
-		if (i < max-4) {
-			i = i+4; 
-		}
-
-		else { 
-			i = 0; 
-		}  
-
-		$("#c > li").eq(i).css('left','0').addClass('active').css('transition-delay','1.25s');
-		$("#c > li").eq(i + 1).css('left','25%').addClass('active').css('transition-delay','1.5s');
-		$("#c > li").eq(i + 2).css('left','50%').addClass('active').css('transition-delay','1.75s');
-		$("#c > li").eq(i + 3).css('left','75%').addClass('active').css('transition-delay','2s');
-	
-	}, timer);
- 
+document.addEventListener('DOMContentLoaded', () => {
+	const elementosCarousel = document.querySelectorAll('.carousel');
+	M.Carousel.init(elementosCarousel,{
+		duration: 150,
+		dist: -80,
+		shift: 5,
+		padding: 5,
+		numVisible: 3,
+		indicators: true,
+		noWrap: false
+	});
+});
