@@ -40,6 +40,17 @@ function efectoHabilidades() {
 
 }
 
+//genero el movimiento del corousel
+const elementosCarousel = document.querySelectorAll('.carousel');
+M.Carousel.init(elementosCarousel,{
+	duration: 150,
+	dist: -80,
+	shift: 5,
+	padding: 5,
+	numVisible: 5,
+	indicators: true,
+	noWrap: false
+});
 
 //pagina pruebas 
 function confirmacion() {
@@ -52,17 +63,3 @@ function confirmacion() {
 		alert("Quizás en otro momento...\n Gracias de todas formas")
 	}
 }
- 
-//genero el movimiento del corousel
-
-
-	const elementosCarousel = document.querySelectorAll('.carousel');
-	M.Carousel.init(elementosCarousel,{
-		duration: 150,
-		dist: -80,
-		shift: 5,
-		padding: 5,
-		numVisible: 3,
-		indicators: true,
-		noWrap: false
-	});
