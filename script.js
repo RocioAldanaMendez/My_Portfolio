@@ -55,7 +55,7 @@ function confirmacion() {
  
 //genero el movimiento del corousel
 
-document.addEventListener('DOMContentLoaded', () => {
+
 	const elementosCarousel = document.querySelectorAll('.carousel');
 	M.Carousel.init(elementosCarousel,{
 		duration: 150,
@@ -66,4 +66,3 @@ document.addEventListener('DOMContentLoaded', () => {
 		indicators: true,
 		noWrap: false
 	});
-});
