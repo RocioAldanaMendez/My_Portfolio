@@ -58,7 +58,7 @@ M.Carousel.init(elementosCarousel,{
 const body = document.body
 const slides = document.querySelectorAll('.slide')
 const leftBtn = document.getElementById('left')
-const rightBtn = document.getElementById('right')
+const rightBtn = document.getElementById('sobremi-right')
 
 let activeSlide = 0
 
@@ -95,6 +95,8 @@ function setActiveSlide() {
 
   slides[activeSlide].classList.add('active')
 }
+
+
 //pagina pruebas 
 function confirmacion() {
 	var pregunta = confirm("¿Deseas visitar la página principal?")
