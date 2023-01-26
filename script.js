@@ -41,7 +41,7 @@ function efectoHabilidades() {
 }
 
 //genero el movimiento del corousel
-const elementosCarousel = document.querySelectorAll('.carousel');
+/* const elementosCarousel = document.querySelectorAll('.carousel');
 M.Carousel.init(elementosCarousel,{
 	duration: 150,
 	dist: -80,
@@ -51,7 +51,7 @@ M.Carousel.init(elementosCarousel,{
 	indicators: true,
 	noWrap: false
 });
-
+ */
 //pagina pruebas 
 function confirmacion() {
 	var pregunta = confirm("¿Deseas visitar la página principal?")
