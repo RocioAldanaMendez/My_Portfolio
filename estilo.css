@@ -137,6 +137,25 @@
         /* seccion S O B R E  M I */
         /* *********************/
         
+
+
+        #sobremi .sobremi {
+            background: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("img/fondo3D.jpg");
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+  /*           align-items: center;
+            justify-content: center; */
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+            background-position: center center;
+            background-size: cover; 
+            transition: 0.4s;
+        } 
       
          #sobremi {
             background: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("img/fondo3D.jpg");
@@ -155,13 +174,15 @@
             background-size: cover; 
             transition: 0.4s;
         } 
-        /* 
+        
         #sobremi .contenedor-foto {
-            max-width: 400px;
-            margin-right: 80px;
+            max-width: 250px;
+            margin-right: 50px;
+            text-transform: uppercase;
+            color: #ffffff;
         }
         
-        #sobremi .contenedor-foto img {
+     /*   #sobremi .contenedor-foto img {
             padding: 20px;
             width: 100%;
             border-radius: 20px;
@@ -178,12 +199,12 @@
         #sobremi .sobremi .titulo-seccion {
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #ffffff;
             text-decoration: underline;
             text-decoration-color: #d3d3d3;
             text-decoration-thickness: 5px;
         }
-        
+/*         
         #sobremi .body::before {
             content: '';
             position: absolute;
@@ -193,7 +214,7 @@
             height: 100vh;
             background-color: rgba(0, 0, 0, 0.7);
             z-index: -1;
-          }
+          } */
         
         #sobremi .sobremi h2 span {
             color: #C029A9;
@@ -205,19 +226,20 @@
             text-transform: uppercase;
             margin-bottom: 20px;
             letter-spacing: 1px;
+            color: #C029A9;
         }
         
         #sobremi .sobremi p {
             font-size: 14px;
             line-height: 25px;
-            color: #070707;
+            color: #ffffff;
             margin-bottom: 12px;
         }
         
         #sobremi .sobremi a {
             display: inline-block;
             text-decoration: none;
-            color: #000;
+            color: rgb(255, 255, 255);
             border-radius: 30px;
             border: 1px solid #000;
             padding: 10px 20px;
@@ -328,16 +350,16 @@
   
   .carousel__face:nth-child(1) {
 
-      background-image: url("img/foto.jpg");
+      background-image: url("img/ro0.1.jpg");
       transform: rotateY(  0deg) translateZ(430px); }
   .carousel__face:nth-child(2) { 
-    background-image: url("img/foto1.jpg");
+    background-image: url("img/ro0.2.jpg");
       transform: rotateY( 40deg) translateZ(430px); }
   .carousel__face:nth-child(3) {
-    background-image: url("img/foto2.jpg");
+    background-image: url("img/ro0.5.jpg");
     transform: rotateY( 80deg) translateZ(430px); }
   .carousel__face:nth-child(4) {
-    background-image: url("img/foto3.jpg");
+    background-image: url("img/ro0.6.jpg");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
     background-image: url("img/ro4.jpg");
