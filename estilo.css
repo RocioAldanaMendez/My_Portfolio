@@ -139,7 +139,7 @@
         
       
          #sobremi {
-            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio-2.jpg");
+            background: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("img/fondo3D.jpg");
             background-size: cover;
             background-position: center center;
             height: 100vh;
@@ -151,8 +151,8 @@
             height: 100vh;
             overflow: hidden;
             margin: 0;
- /*            background-position: center center;
-            background-size: cover; */
+            background-position: center center;
+            background-size: cover; 
             transition: 0.4s;
         } 
         /* 
@@ -169,7 +169,10 @@
         }*/
         
          #sobremi .sobremi {
-            margin: 0 40px;
+            position: absolute;
+            width: 5000%;
+            height: 50%;
+            overflow: hidden;
         }
         
         #sobremi .sobremi .titulo-seccion {
@@ -301,14 +304,14 @@
   #sobremi .carousel {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 200%;
     transform-style: preserve-3d; 
     animation: rotate360 60s infinite forwards linear;
   }
   #sobremi .carousel__face { 
     position: absolute;
     width: 300px;
-    height: 187px;
+    height: 250px;
     top: 20px;
     left: 10px;
     right: 10px;
