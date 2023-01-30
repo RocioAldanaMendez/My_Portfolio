@@ -101,7 +101,7 @@
         }
         
         #inicio .contenido .presentacion h2 span {
-            font-size: 25px;
+            font-size: 55px;
             color: #C029A9;
         }
         
@@ -244,7 +244,7 @@
             border: 1px solid #000;
             padding: 10px 20px;
             margin-top: 30px;
-            transition: .5s;
+            transition: .2s;
         }
         
         #sobremi .sobremi a:hover {
@@ -353,28 +353,28 @@
       background-image: url("img/ro0.1.jpg");
       transform: rotateY(  0deg) translateZ(430px); }
   .carousel__face:nth-child(2) { 
-    background-image: url("img/ro0.2.jpg");
+    background-image: url("img/ro0.7.jpg");
       transform: rotateY( 40deg) translateZ(430px); }
   .carousel__face:nth-child(3) {
-    background-image: url("img/ro0.5.jpg");
+    background-image: url("img/.jpg");
     transform: rotateY( 80deg) translateZ(430px); }
   .carousel__face:nth-child(4) {
     background-image: url("img/ro0.6.jpg");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
-    background-image: url("img/ro4.jpg");
+    background-image: url("img/ro0.8.jpg");
    transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
-    background-image: url("img/ro5.jpg");
+    background-image: url("img/ro0.11.jpg");
    transform: rotateY(200deg) translateZ(430px); }
   .carousel__face:nth-child(7) { 
-    background-image: url("img/ro6.jpg");
+    background-image: url("img/foto3.jpg");
    transform: rotateY(240deg) translateZ(430px); }
   .carousel__face:nth-child(8) {
-    background-image: url("img/ro7.jpg");
+    background-image: url("img/ro0.12.jpg");
     transform: rotateY(280deg) translateZ(430px); }
   .carousel__face:nth-child(9) {
-    background-image: url("img/imagen5.jpg");
+    background-image: url("img/.jpg");
     transform: rotateY(320deg) translateZ(430px); }
   
   
@@ -890,7 +890,7 @@
         @import url("https://fonts.googleapis.com/css?family=Raleway");
 
         :root {
-        --glow-color: rgb(250, 34, 160);
+        --glow-color: rgb(5, 151, 139);
         }
 
         .glowing-btn {
@@ -917,7 +917,7 @@
         }
 
         .glowing-txt {
-        float: left;
+        float: center;
         margin-right: -0.8em;
         -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
             0 0 0.45em var(--glow-color);
